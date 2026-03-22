@@ -97,7 +97,7 @@ const Navbar = () => {
                 Resister
               </NavLink>
               <NavLink className="btn" to="/login">
-                LogIn
+                Login
               </NavLink>
             </div>
           )}

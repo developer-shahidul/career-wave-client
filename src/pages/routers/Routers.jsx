@@ -9,7 +9,7 @@ import AddJob from "../Addjob/AddJob";
 import MyApplications from "../myApplications/MyApplications";
 import JobApplications from "../jobApplications/JobApplications";
 import ViewApplication from "../viewApplication/ViewApplication";
-import LogIn from "../Authentication/logIn";
+import Login from "../Authentication/logIn";
 
 const Routers = createBrowserRouter([
   {
@@ -78,8 +78,8 @@ const Routers = createBrowserRouter([
         Component: Register,
       },
       {
-        path: "/logIn",
-        Component: LogIn,
+        path: "/login",
+        Component: Login,
       },
     ],
   },

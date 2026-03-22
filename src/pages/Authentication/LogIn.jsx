@@ -4,7 +4,7 @@ import { AuthContext } from "../../context/AuthContext";
 import Swal from "sweetalert2";
 import SocialLogin from "./SocialLogin";
 
-const LogIn = () => {
+const Login = () => {
   const { signInUser } = useContext(AuthContext);
 
   // page lucation a fire jabe
@@ -87,4 +87,4 @@ const LogIn = () => {
   );
 };
 
-export default LogIn;
+export default Login;
