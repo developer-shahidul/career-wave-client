@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router";
 import Layout from "../../layouts/Layout";
 import Home from "../home/Home";
-import LogIn from "../Authentication/logIn";
 import Register from "../Authentication/Register";
 import JobDetails from "../JobDetails/JobDetails";
 import JobApply from "../jobApply/JobApply";
@@ -10,6 +9,7 @@ import AddJob from "../Addjob/AddJob";
 import MyApplications from "../myApplications/MyApplications";
 import JobApplications from "../jobApplications/JobApplications";
 import ViewApplication from "../viewApplication/ViewApplication";
+import LogIn from "../Authentication/logIn";
 
 const Routers = createBrowserRouter([
   {
