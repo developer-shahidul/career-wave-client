@@ -9,6 +9,7 @@ const Login = () => {
 
   // page lucation a fire jabe
   const location = useLocation();
+
   const from = location.state || "/";
   const navigate = useNavigate();
 
