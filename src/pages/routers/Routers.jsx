@@ -9,7 +9,7 @@ import AddJob from "../Addjob/AddJob";
 import MyApplications from "../myApplications/MyApplications";
 import JobApplications from "../jobApplications/JobApplications";
 import ViewApplication from "../viewApplication/ViewApplication";
-import Login from "../Authentication/logIn";
+import Login from "../Authentication/Login";
 
 const Routers = createBrowserRouter([
   {
